@@ -175,7 +175,7 @@ CREATE TABLE jobs (
     posted_date DATE,
     currency TEXT,
     skills TEXT,
-    PRIMARY KEY (title, company, posted_date)
+    UNIQUE  (title, company, posted_date)
 );
 ```
 
