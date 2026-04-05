@@ -1,0 +1,26 @@
+# --- Python Specific ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# --- Environments ---
+venv/
+env/
+ENV/
+.venv/
+
+# --- Database & Secrets ---
+.env
+*.db
+*.sqlite
+
+# --- Logs ---
+*.log
+etl.log
+
+# --- IDEs & OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
