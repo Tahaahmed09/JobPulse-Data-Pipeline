@@ -111,7 +111,6 @@ Example:
 * Python 🐍
 * Pandas
 * Requests
-* BeautifulSoup (optional scraping layer)
 * SQLAlchemy
 * PostgreSQL
 * dotenv (environment variables)
